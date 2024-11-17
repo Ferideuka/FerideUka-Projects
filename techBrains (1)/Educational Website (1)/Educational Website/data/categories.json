@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Name": "Web Devolopment",
+        "Description":  "Tech brains offers multiple courses on web development area.Learn programming languages as JavaScript,Python and UI/UX.",
+        "Link": "/categories/Web-Devolopment.html"
+    },
+    {
+        "id": 2,
+        "Name": "Mobile Devolopment",
+        "Description":  "Embark on a journey into the dynamic realm of mobile development, where innovation meets the palm of your hand!",
+        "Link": "/categories/Mobile-Devolopment.html"
+    },
+    {
+        "id": 3,
+        "Name": "Game Devolopment",
+        "Description":  "Embark on a thrilling journey into the dynamic realm of game development, where creativity meets technology! ",
+        "Link": "/categories/Game-Devolopment.html"
+    },
+    {
+        "id": 4,
+        "Name": "Graphic Design",
+        "Description":  "Learn with us to make things look good and deliver a message in the most impactful way possible.Choose each course you want only on Tech Brains",
+        "Link": "/categories/Graphic-Design.html"
+    },
+    {
+        "id": 5,
+        "Name": "Marketing",
+        "Description":  "Learn the key skills, strategies, and techniques of marketing—a key skill to support the success of your brand and business.",
+        "Link": "/categories/Marketing.html"
+    },
+    {
+        "id": 6,
+        "Name": "Business",
+        "Description":  "Get more Business Skills and achieve multiple successes.Tutors from all around the world here to teach you all the details you need on bussiness world",
+        "Link": "/categories/Business.html"
+    }
+]

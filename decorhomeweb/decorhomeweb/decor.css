@@ -1,0 +1,1458 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.homePage{
+    background-image: url(homeBackground.png);
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.menu{
+    position: absolute;
+    background-color: white;
+    display: flex;
+  width:100% ;
+    height: 80px;
+  
+ 
+}
+
+.logomenu{
+    width: 50px;
+    margin-left: 100px;
+   margin-top: 15px;
+
+}
+h1{
+    margin: 5px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#434a57 ;
+}
+ .menu ul{
+    list-style: none;
+    display: flex;
+    color: #434a57;
+ }
+
+ .menu ul li{
+    padding: 25px 30px;
+    position: relative;
+ }
+
+ .menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ .menu ul li a:hover{
+    color: #448c74;
+ }
+
+ .dropdownLandings{
+    display: none;
+ }
+.menu li:hover .dropdownLandings{
+
+    transform: ease;
+    transition: 0.5s;
+    display: block;
+    position: absolute;
+    height: 200px;
+    padding: 10px;
+    left: 0;
+    top: 90%;
+border-radius: 10px;
+    background-color: white;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+   
+}
+.dropdownLandings ul{
+    display: block;
+    
+}
+.dropdownLandings ul li a{
+    font-size: 15px;
+}
+
+
+.dropdownLandings ul li{
+    width: 550px;
+    padding: 5px;
+    
+   
+}
+.firstpartdpLandings{
+    width: 220px;
+   
+}
+.secondpartdpLandings{
+    width: 220px;
+    float: right;
+    margin-right: 80px;
+margin-top:-37%;
+
+}
+ .dropdownPages{
+    display: none;
+}
+.menu li:hover .dropdownPages{
+    display: block;
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    top: 100%;
+border-radius: 10px;
+    background-color: white;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transform: ease;
+    transition: 0.3s;
+
+   
+
+}
+
+  .dropdownPages li:hover{
+    color: #448c74;
+}
+
+
+
+
+.dropdownPages ul{
+    display: block;
+}
+.dropdownPages ul li a{
+    font-size: 20px;
+    
+}
+
+
+.dropdownPages  ul li{
+    width: 200px;
+    padding: 5px;
+
+    
+   
+}
+.dropdownPortofolio{
+    display: none;
+}
+.dropdownPages ul li:hover .dropdownPortofolio{
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    top: -15px;
+    left: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 5px;
+
+   
+}
+
+.dropdownPortofolio ul li a{
+    font-size: 15px;
+}
+
+.dropdownShop{
+
+    display: none;
+}
+
+.dropdownPages ul li:hover .dropdownShop{
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    top: -15px;
+    left: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 5px;
+
+}
+.dropdownShop ul li a{
+    font-size: 15px;
+}
+
+.dropdownBlog{
+    display: none;
+}
+
+.dropdownPages ul li:hover .dropdownBlog{
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    top: -15px;
+    left: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 5px;
+}
+.dropdownBlog ul li a{
+    font-size: 15px;
+}
+
+.dropdownServices{
+    display: none;
+}
+
+.dropdownPages ul li:hover .dropdownServices{
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    top: -15px;
+    left: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 5px;
+
+}
+.dropdownServices ul li a{
+    font-size: 15px;
+}
+
+.dropdownContacts{
+    display: none;
+}
+.dropdownPages ul li:hover .dropdownContacts{
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    top: -15px;
+    left: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 5px;
+}
+
+.dropdownContacts ul li a{
+    font-size: 15px;
+}
+
+
+
+.dropdownSpeciality{
+    display: none;
+}
+.dropdownPages ul li:hover .dropdownSpeciality{
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    top: -15px;
+    left: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 5px;
+}
+.dropdownSpeciality ul li a{
+    font-size: 15px;
+}
+.decor {
+    position: absolute;
+    top: 32%;
+    font-size: 63px;
+    letter-spacing: 1px;
+    font-family: 'Sarabun', sans-serif;
+    color: white;
+    margin-left: 85px;
+}
+p{
+    position: absolute;
+    top: 63%;
+    font-size: 14px;
+   width: 40%;
+    font-family: 'Noto Serif Khojki', serif;
+    color: rgba(255, 255, 255, 0.714);
+    margin-left: 96px;
+}
+
+button a{
+    position: absolute;
+    color:white;
+    padding: 10px;
+    border: 1px solid white;
+    top: 76%;
+    margin-left: 95px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+a:hover{
+    transform: ease;
+    transition: 0.5s;
+    background-color: white;
+    color: #434a57;
+}
+
+ .catalog{
+    position: absolute;
+    top: 105%;
+    margin-left: 5%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+ 
+}
+.picsandprice{
+    
+    display: flex;
+background-color: white;
+   height: 20%;
+    justify-content: center;
+ padding: 20px 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    position: relative;
+
+   /* padding-top: 15px;
+   padding-bottom: 15px; */
+
+   
+}
+.forlivingroom{
+    
+    position: absolute;
+    top: 87%;
+    margin-left: 30px;
+ 
+}
+.forlivingroom button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
+.glassvase{
+    width: 50%;
+    margin-left: 20px;
+}
+.text{
+   
+    width: 50%;
+    margin-left: -10px;
+    font-size: 12px;
+    align-items: center;
+}
+
+
+
+
+
+.potPicsAndPrice{
+    display: flex;
+    background-color: white;
+       height: 20%;
+        justify-content: center;
+     padding: 8px 15px;
+        border-radius: 10px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+  
+      
+}
+.forkitchen{
+    
+    position: absolute;
+    top: 87%;
+    margin-left: 30px;
+ 
+}
+.forkitchen button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.flowerVase{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.textforflowers{
+    width: 50%;
+    margin-left: -10px;
+    font-size: 12px;
+    align-items: center;
+
+}
+
+.soapPicsAndPrice{
+    display: flex;
+    background-color: white;
+       height: 20%;
+        justify-content: center;
+     padding: 8px 15px;
+        border-radius: 10px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+      
+}
+.soapdispenser{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.soapText{
+    width: 50%;
+    margin-left: -10px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.clockPicsAndPrice{
+    display: flex;
+    background-color: white;
+       height: 20%;
+        justify-content: center;
+     padding: 20px 15px;
+        border-radius: 10px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+ 
+}
+.clockphoto{
+    width: 50%;
+    margin-left: 20px;
+}
+.clockText{
+    width: 50%;
+    margin-left: -10px;
+    font-size: 12px;
+    align-items: center;
+}
+h2 {
+    color: white;
+    position: absolute;
+    top: 101%;
+    font-size: 14px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+.aboutPart{
+    position: relative;
+margin-top: 80px;
+
+} 
+
+.about{
+    color: black;
+    width: 62%;
+    font-family: 'Noto Serif NP Hmong', serif;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    margin-left: 120px;
+} 
+.aboutPart h1{
+    position: relative;
+    margin-top: 100%;
+}
+
+
+.collage{
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+   
+ 
+}
+
+.firstcupphoto{
+    width: 32%;
+    height: 32%;
+    position: relative;
+}
+.firstcupphoto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.secondpart{
+    width: 50%;
+}
+.dishes img{
+    width: 100%;
+    border-radius: 15px;
+}
+.dishes{
+    padding: 10px;
+    position: relative;
+}
+
+.forkitchen{
+    
+    position: absolute;
+    top: 75%;
+    margin-left: 30px;
+ 
+}
+.forkitchen button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
+.bathroompic img{
+    width: 50%;
+    border-radius: 15px;
+}
+.bathroompic{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+.forbathroom{
+    
+    position: absolute;
+    top: 72%;
+    margin-left: 30px;
+ 
+}
+.forbathroom button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.room1{
+    position: relative;
+}
+.forbedroom{
+    
+    position: absolute;
+    top: 75%;
+    margin-left: 320px;
+
+}
+.forbedroom button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
+.bathroom1{
+    margin-right:  10px; ;
+}
+
+.categories {
+margin: 30px;
+margin-left: 120px;
+font-size: 30px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 80px;
+}
+.categories h1{
+    font-family: sans-serif;
+}
+
+.trendingCategories{
+ 
+    margin: 100px;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+/* .lamp{
+    width: 20%;
+    display: flex;
+    background-color: #f6f9fc;
+   margin: 10px;
+align-items: center;
+justify-content: center;
+padding: 30px 0px;
+} */
+
+
+.soap{
+    display: flex;
+    width: 20%;
+    background-color: #f6f9fc;
+    margin: 10px;
+    justify-content: center;
+    padding: 30px 0px;
+  
+}
+.roundvase{
+    display: flex;
+    width: 20%;
+    background-color: #f6f9fc;
+    margin: 10px;
+    justify-content: center;
+    padding: 30px 0px;
+ 
+}
+.candle{
+    display: flex;
+    width: 20%;
+    background-color: #f6f9fc;
+margin: 10px;
+justify-content: center;
+padding: 30px 0px;
+}
+
+.textlampsc{
+    margin-left: 20px;
+
+}
+ .textlampsc h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #434a57;
+    font-size: 13px;
+    
+}
+ .textlampsc h5{
+    margin-top: 10px;
+    color: #666c77;
+    font-size: 13px;
+}
+ .textlampsc del{
+    color:#d3d5d8;
+    font-size: 10px;
+}
+
+.textdispensersc{
+    margin-left: 20px;
+}
+
+.textdispensersc h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #434a57;
+    font-size: 13px;
+    
+}
+ .textdispensersc h5{
+    margin-top: 10px;
+    color: #666c77;
+    font-size: 13px;
+}
+ .textdispensersc del{
+    color:#d3d5d8;
+    font-size: 10px;
+}
+
+
+.textvasesc{
+    margin-left: 20px;
+
+}
+ .textvasesc h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #434a57;
+    font-size: 13px;
+    
+}
+ .textvasesc h5{
+    margin-top: 10px;
+    color: #666c77;
+    font-size: 13px;
+}
+ .textvasesc del{
+    color:#d3d5d8;
+    font-size: 10px;
+}
+
+
+
+.textcandlesc{
+    margin-left: 20px;
+
+}
+ .textcandlesc h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #434a57;
+    font-size: 13px;
+    
+}
+ .textcandlesc h5{
+    margin-top: 10px;
+    color: #666c77;
+    font-size: 13px;
+}
+ .textcandlesc del{
+    color:#d3d5d8;
+    font-size: 10px;
+}
+
+.dinnertablepart{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+/* .backgroundandtext{
+    width: 50%;
+} */
+.backgroundimagedinner {
+    width: 100%;
+}
+
+
+.backgroundimagedinner img{
+    width: 100%;
+}
+
+.dinnertext h1{
+    position: absolute;
+    margin-top: -30%;
+        font-size: 45px;
+        letter-spacing: 1px;
+        font-family: 'Sarabun', sans-serif;
+        color: white;
+        margin-left: 85px;
+        width: 40%;
+}
+
+
+.boxproduct{
+   height: 60%;
+    width: 25%;
+    background-color: white;
+    top: 20%;
+    position: absolute;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 65%;
+ 
+}
+.setdinner img{
+    justify-content: center;
+    text-align: center;
+    margin-left: 25px;
+}
+.textset h3{
+    color: #dddfe1;
+    font-size: 15px;
+ margin-left: 20px;
+}
+
+.textset h3:hover{
+    color: #448c74;
+    transform: linear;
+    transition: 0.5s;
+}
+.textset h5{
+    color: #5d6576;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.companysupport{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 80px;
+}
+.textdelivery h1{
+    color: #2d2f33;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.textdelivery h6{
+    color: #5c5d60;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.moneytext h1{
+    color: #2d2f33;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.moneytext h6 {
+    color: #5c5d60;
+    font-weight: 100;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+.textsupport h1{
+    color: #2d2f33;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.textsupport h6{
+    color: #5c5d60;
+    font-weight: 100;
+    margin-left: 5px; 
+}
+
+.securitytext h1{
+    color: #2d2f33;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.securitytext h6{
+    color: #5c5d60;
+    font-weight: 100;
+    margin-left: 5px; 
+    margin-top: 10px;
+}
+
+.ideasforhome{
+    display: flex;
+    /* justify-content: space-between; */
+
+    justify-content: center;
+}
+.ideass{
+    margin-left: 150px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: sans-serif;
+}
+.secondidea{
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+.secondidea img{
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.firstidea img{
+    border-radius: 10px;
+   
+}
+ .thirdidea img{
+    border-radius: 10px;
+   
+ }
+ .secondidea .firstimg{
+    margin-bottom: 10px;
+ }
+
+.discountsalespart{
+    margin: 100px;
+    display: flex;
+    
+
+}
+
+.discountsalespart h1{
+    color: black;
+    font-family: sans-serif;
+}
+
+.discountparagraph{
+  position: relative;
+  color:#57595d ;
+  margin-left: 0px;
+  width: 95%;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.greenbox{
+    background-color: #c7ddd6;
+    width: 30%;
+    border-radius: 10px;
+    padding: 80px 110px;
+   margin-top: 30px;
+
+}
+.greenboxelements{
+    margin-left: -50px;
+}
+.greenbox .bestselling{
+    color: #6a7582;
+    font-weight: 100;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+.clockboxes{
+    display: flex;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.whitebox{
+    background-color: white;
+   padding: 8px 15px;
+   border-radius: 10px;
+}
+ h5{
+   display: flex;
+    color: white;
+    font-size: 45px;
+    align-items: center;
+}
+.whitebox h6{
+    font-size: 35px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 100;
+}
+
+.whitebox1{
+    background-color: white;
+  
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+.whitebox1 h6{
+    font-size: 35px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 100;
+}
+.whitebox2{
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.whitebox2 h6{
+    font-size: 35px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 100;
+}
+
+
+.greenbox button{
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid black;
+    top: 76%;
+    /* margin-left: 95px; */
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+
+.greenbox button:hover{
+    transform: linear;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+
+.whiteclockimg{
+    position: absolute;
+   margin-top: -15%;
+   margin-left: 190px;
+}
+
+.banner1{
+ display: flex;
+    background-color: #f6f9fc;
+ height: 30%;
+   width: 50%;
+   margin-left: 50px;
+   border-radius: 10px;
+   padding: 50px 0px;
+   margin-top: 20%;
+}
+
+.banner1 img{
+    margin-left: 40px;
+}
+
+.banner1 h1{
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  justify-content: center;
+    font-size: 60px;
+   
+}
+
+.banner1 h2{
+   font-variant:initial;
+position: relative;
+   color: black;
+   top: 0%;
+ margin-left: -5px;
+   font-size: 30px;
+   width: 100%;
+   margin: 0px;
+  margin-left: 70px;
+}
+.banner1 h6{
+    margin-left: 70px;
+    margin-top: 30px;
+    color:#757c8b;
+    font-weight: 100;
+}
+
+.sale{
+   margin-left: 50px;
+   font-weight: 100;
+   color: #757c8b;
+   font-size: 12px;
+
+}
+
+.firstdiscount{
+    width: 50%;
+}
+.threeboxesblog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin: 60px;
+}
+.threeboxesblog h2{
+    position: relative;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#434a57 ;
+    font-weight: 600;
+    font-size: 23px;
+    margin: 15px;
+}
+.threeboxesblog img{
+    border-radius: 10px;
+}
+.blogpart h1{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: black;
+    margin-left: 105px;
+}
+
+.threeboxesblog .paintings{
+    position: relative;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    margin: 15px;
+    color: #6a7582;
+}
+
+.blogpart button{
+    position: absolute;
+    display: flex;
+  color: #448c74;
+    padding: 10px;
+    border: 1px solid #448c74;
+  background-color: transparent;
+ text-align: center;
+ justify-content: center;
+margin-left: 43%;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.followus{
+    margin: 80px;
+    margin-top: 200px;
+}
+
+.firstphotosandtext{
+    display: flex;
+    justify-content: space-between;
+}
+.firstphotosandtext img{
+    border-radius: 10px;
+}
+.textfollowus h2{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 35px;
+    margin-top: -170px;
+    text-align: center;
+}
+#greendecor{
+    color: #448c74;
+    margin: 0;
+}
+
+.fourimages{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fourimages img{
+    border-radius: 10px;
+}
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.allulblack{
+    background-color: #121519;
+    color: white;
+    display: flex;
+    padding: 100px;
+    margin-top: -190px;
+}
+
+.allul{
+    margin-top: 90px;
+    display: flex;
+}
+.allul li{
+    text-decoration: none;
+    list-style: none;
+}
+.allul h1{
+  color:#cececf ;  
+    margin: 10px;
+    font-size: 15px;
+    
+}
+.ul h1{
+    text-transform: capitalize;
+}
+.ul{
+    margin-right: 50px;
+    color: #e3e4e4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+.ul li{
+
+    margin: 5px;
+}
+
+.ul li:hover{
+    transform: linear;
+    transition: 0.5s;
+    color: #448c74;
+}
+
+#specialul{
+    margin-left: 60px;
+}
+
+.supportpart{
+    display: flex;
+    color: #757c8b;
+    margin-left: 90px;
+    padding-bottom: 10px;
+}
+
+.supportpart li{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    background-color:#121519;
+    margin-top: -30px;
+   
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px){
+
+
+    .aroundisplay{
+        display: none
+    }
+   .logomenu img{
+    margin-left: -80px;
+   }
+ .ulkit{
+    display: none;
+ }
+ .docs{
+    display: none;
+ }
+
+ .menu ul li {
+    padding: 25px 5px;
+    position: relative;
+}
+.decor {
+    position: absolute;
+    top: 12%;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: 'Sarabun', sans-serif;
+    color: white;
+    /* margin-left: 85px; */
+    margin-left: 20px;
+}
+p {
+    position: absolute;
+    top: 45%;
+    font-size: 14px;
+    width: 70%;
+    font-family: 'Noto Serif Khojki', serif;
+    color: rgba(255, 255, 255, 0.714);
+    margin-left: 26px;
+}
+button a {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    top: 56%;
+    margin-left: 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.catalog {
+    position: absolute;
+    top: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clockPicsAndPrice {
+
+    display: none;
+}
+.picsandprice {
+    display: flex;
+    background-color: white;
+    height: 20%;
+    justify-content: center;
+    padding: 20px 95px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    position: relative;
+}
+
+.picsandprice img{
+    margin-left: -80px;
+}
+
+
+
+.potPicsAndPrice {
+    display: flex;
+    background-color: white;
+    height: 20%;
+    justify-content: center;
+    padding: 8px 95px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.potPicsAndPrice img{
+    margin-left: -80px;
+}
+.soapPicsAndPrice {
+    display: flex;
+    background-color: white;
+    height: 20%;
+    justify-content: center;
+    padding: 8px 95px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.soapPicsAndPrice img{
+    margin-left: -80px
+}
+
+.about {
+    color: black;
+    width: 90%;
+    font-family: 'Noto Serif NP Hmong', serif;
+    font-size: 17px;
+    /* letter-spacing: 0.2px; */
+    /* margin-left: 120px; */
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.categories {
+    margin: 30px;
+    /* margin-left: 120px; */
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 170px;
+}
+.collage {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.firstcupphoto {
+    width: 90%;
+    height: 22%;
+    position: relative;
+}
+
+.firstcupphoto img{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+.secondpart {
+    width: 100%;
+}
+.dishes img {
+    width: 100%;
+  
+    border-radius: 15px;
+}
+.forkitchen {
+    position: absolute;
+    top: 65%;
+    margin-left: 30px;
+}
+.bathroompic img {
+    width: 100%;
+    border-radius: 15px;
+}
+.bathroompic {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 10px;
+    position: relative;
+}
+.forbedroom {
+    position: absolute;
+    top: 90%;
+    margin-left: 50px;
+}
+.bathroompic {
+    display: flex;
+    padding: 10px;
+    position: relative;
+    flex-direction: column;
+}
+.bathroom1 {
+  margin: 0px
+}
+.room1{
+    margin-top: 10px
+}
+.forbathroom {
+    position: relative;
+    /* position: absolute; */
+    /* top: 72%; */
+    /* margin-top: -100px; */
+    margin-left: 30px;
+    top: -20%;
+    margin-top: -50px;
+}
+
+.room1 {
+    margin-top: 30px;
+}
+.categories h1 {
+    font-family: sans-serif;
+    margin-top: -120px;
+    width: 30%;
+}
+
+.formediascreen{
+    display: flex;
+    flex-direction: column
+}
+.trendingCategories {
+    /* margin: 100px; */
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.backgroundimagedinner img {
+    /* width: 100%; */
+}
+.trendingCategories {
+    /* margin: 100px; */
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&family=Noto+Serif+NP+Hmong&family=Open+Sans&family=Roboto+Condensed&family=Roboto:wght@500&family=Sarabun:wght@500&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Noto+Serif+Khojki&family=Noto+Serif+NP+Hmong&family=Open+Sans&family=Roboto+Condensed&family=Roboto:wght@500&family=Sarabun:wght@500&family=Teko&display=swap');

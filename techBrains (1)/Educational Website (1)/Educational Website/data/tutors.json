@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "Name": "Apna College",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, maxime. Necessitatibus, corrupti!",
+        "Review": "4.5",
+        "Image": "./imageTutors/Apna College tutors.jpg"
+    },
+    {
+        "id": 2,
+        "Name": "WsCube Tech",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, maxime. Necessitatibus, corrupti!",
+        "Review": "4.7",
+        "Image": "./imageTutors/WsCube Tech tutors.jpg"
+    },
+    {
+        "id": 3,
+        "Name": "Young Entrepreneurs Forum",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, maxime. Necessitatibus, corrupti!",
+        "Review": "4.5",
+        "Image": "./imageTutors/Young Entrepreneurs Forum tutor.jpg"
+    }
+]

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website Title -->
+    <title>Education Website - Web Devolopment</title>
+    <!-- Website Title End -->
+    <!-- Connect Html With CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Connect Html With CSS End -->
+    <!-- Connect Html With Font Awesome -->
+    <script src="https://kit.fontawesome.com/5e26473dc3.js" crossorigin="anonymous"></script>
+    <!-- Connect Html With Font Awesome End -->
+    <!-- Website tab icon -->
+    <link rel="icon" type="image/png" href="/image/reshot-icon-owl-learning-CY6JXTW4MP.svg">    
+    <!-- Website tab icon End -->
+</head>
+<body>
+
+    <!-- Container -->
+    <div class="container"> 
+        <!-- Head -->
+        <div class="head">
+            <div class="head-center">
+                <div class="head-txt">
+                    <a href="/index.html"><h1>Tech Brains</h1></a>
+                </div>
+                <div class="head-link">
+                    <ul>
+                        <div class="dropdown">
+                            <button class="dropbtn">Categories</button>
+                            <div class="dropdown-content">
+                                <a href="/categories/Web-Devolopment.html">Web Devolopment</a>
+                                <a href="/categories/Mobile-Devolopment.html">Mobile Devolopment</a>
+                                <a href="/categories/Game-Devolopment.html">Game Devolopment</a>
+                                <a href="/categories/Graphic-Design.html">Graphic Design</a>
+                                <a href="/categories/Marketing.html">Marketing</a>
+                                <a href="/categories/Business.html">Business</a>
+                            </div>
+                        </div>
+                        <li><a href="/course Html and CSS/course-html-and-css-first-lesson.html">Html & CSS Course</a></li>
+                        <li><a href="/teach-with-us.html">Teach on our school</a></li>
+                    </ul>
+                </div>
+                <div class="head-signup-login-profile-search">
+                    <div id="headSignUpLogin" class="head-sign-up-login">
+                        <a href="/login.html"><button class="btn-log-in">
+                            Log in
+                        </button></a>
+                        <a href="/registration.html"><button class="btn-sign-up">
+                            Sign up
+                        </button></a>
+                    </div>
+                    <div id="profileContainer" class="head-profile">
+                        <a href="/create-course.html"><button id="create-course-btn" class="create-your-course-btn">
+                            Create Course
+                        </button></a>
+                        <button class="search-btn" id="searchbutton">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <div id="searchContainer" class="search-container">
+                            <div class="search-box">
+                                <input
+                                    type="text"
+                                    placeholder="Type the word here.."
+                                    id="inp-word"
+                                />
+                                <button id="search-btn">Search</button>
+                            </div>
+                            <div class="result" id="result"></div>
+                        </div>
+                        <div class="dropdown">
+                            <button id="profile-name" class="dropbtn">
+                                
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">My cart</a>
+                                <a href="/edit-profile.html"><button>
+                                    Edit profile
+                                </button></a>
+                                <a href="/login.html"><button id="log-out-btn">
+                                    Log Out
+                                </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuBtn">
+                    <button id="open-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Head End -->
+        <!-- Container txt and img -->
+        <div class="container-txt-img">
+            <!-- Container txt and img Center -->
+            <div class="container-txt-img-center">
+                <!-- Container Txt -->
+                <div class="container-txt">
+                    <h1>Tech Brains</h1>
+                    <p>Tech Brains is an online learning platform with over 100 courses and over 30 tutors.Learn programming,marketing and get bussiness skills in no time.</p>
+                    <button>
+                        Apply Here
+                    </button>
+                </div>
+                <!-- Container Txt End -->
+                <!-- Container img -->
+                <div class="container-img">
+                    <img src="/image/app-landing.svg" alt="">
+                </div>
+                <!-- Container img End -->
+            </div>
+            <!-- Container txt and img Center End -->
+        </div>
+        <!-- Container txt and img End -->
+    </div>
+    <!-- Container End -->
+
+    <!-- Our courses -->
+    <div class="container-our-courses">
+        <!-- Our courses container -->
+        <div class="our-courses-container">
+            <h1>Graphic Design</h1>
+            <p>Learn with us to make things look good and deliver a message in the most impactful way possible.Choose each course you want only on Tech Brains</p>
+            <!-- Our courses boxes -->
+            <div class="our-courses-container-boxes" id="container-for-courses-categories-graphic-design">
+            
+            </div>
+            <!-- Our courses boxes End -->
+        </div>
+        <!-- Our courses container End -->
+    </div>
+    <!-- Our courses End -->
+
+    <!-- Connect Html with Js for log in and sign up -->
+    <script src="/js/sign-up-log-in.js"></script>
+
+    <!-- Connect Html with Js for search container -->
+    <script src="/js/search.js"></script>
+
+    <!-- Connect Html with Js to apply to be teacher -->
+    <script src="/js/if-teacher-pop-button-for-course.js"></script>
+
+    <!-- Connect Html with Js to apply courses -->
+    <script src="./js/categories.js"></script>
+    
+    <!-- Connect to js menu -->
+    <script src="/js/menu.js"></script>
+
+</body>
+</html>
